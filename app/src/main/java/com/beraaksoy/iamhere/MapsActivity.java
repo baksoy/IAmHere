@@ -124,8 +124,7 @@ public class MapsActivity extends FragmentActivity implements GoogleApiClient.Co
                 .position(latLng)
                 .title("I am here!");
         mMap.addMarker(options);
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        //Zoom in to current lat and long
+        //Focus and Zoom in to current lat and long
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 12));
     }
 
