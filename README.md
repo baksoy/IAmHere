@@ -1,6 +1,7 @@
 ##Quick explanation of methods used:
 
-This is based on the following [blog post](http://blog.teamtreehouse.com/beginners-guide-location-android)
+This is an Android Studio project that retrieves a user’s current location and displays it with a marker on a map.
+It is based on the following [blog post](http://blog.teamtreehouse.com/beginners-guide-location-android)
 
 <pre style="background:#fdf6e3;color:#586e75"><span style="color:#073642;font-weight:700">protected</span> <span style="color:#073642;font-weight:700">void</span> onCreate(<span style="color:#073642;font-weight:700">Bundle</span> savedInstanceState){
         setContentView(<span style="color:#073642;font-weight:700">R</span><span style="color:#859900">.</span>layout<span style="color:#859900">.</span>activity_maps);
